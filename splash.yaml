@@ -1,0 +1,16 @@
+# run dart run flutter_native_splash:create --path=splash.yaml to generate the splash screen
+
+# run dart run flutter_native_splash:remove to remove the splash screen
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#272727"
+  image: assets/logos/splash-logo-black.png
+  image_dark: assets/logos/splash-logo-white.png
+
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#272727"
+    image: assets/logos/splash-logo-black.png
+    image_dark: assets/logos/splash-logo-white.png
+
+  web: false
