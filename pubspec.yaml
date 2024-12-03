@@ -40,6 +40,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   iconsax: ^0.0.8
   flutter_native_splash: ^2.4.3
+  smooth_page_indicator: ^1.2.0+3
   get: ^4.6.6
   get_storage: ^2.1.1
 
@@ -69,7 +70,7 @@ flutter:
   assets:
     - assets/logos/
     - assets/icons/
-    - assets/images/on_boarding_images
+    - assets/images/on_boarding_images/
     - assets/fonts/
 
   # An image asset can refer to one or more resolution-specific "variants", see
